@@ -1,0 +1,8 @@
+extends layout
+block head
+
+block content
+  h1= title
+  p Welcome to #{title}
+  button(type='button', class='btn btn-primary' id="newUserBtn") Button
+  script(src="/javascripts/users.js")

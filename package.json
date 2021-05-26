@@ -1,0 +1,35 @@
+{
+  "name": "food-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=food-app:* node ./bin/www",
+    "dev": "DEBUG=food-app:* nodemon ./bin/www",
+    "newMigr": "DEBUG=food-app:* node ./bin/db/create_migration.js",
+    "newMod": "DEBUG=food-app:* node ./bin/db/create_model.js",
+    "migrDB": "DEBUG=food-app:* node -e \"require('./db/schema.js').migrate()\"",
+    "resetDB": "DEBUG=food-app:* node -e \"require('./db/schema.js').reset()\""
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "express-promise-router": "^4.1.0",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.6.0",
+    "morgan": "~1.9.1",
+    "pg": "^8.6.0",
+    "pg-native": "^3.0.0",
+    "pug": "2.0.0-beta11"
+  },
+  "main": "app.js",
+  "repository": "git@github.com:marcusaandahl/food-app.git",
+  "author": "Marcus Andreas Aandahl <marcus.aandahl@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
