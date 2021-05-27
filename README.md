@@ -4,7 +4,9 @@
 
 This template is for [ExpressJS](https://expressjs.com/) used with [PostgreSQL](https://www.postgresql.org/). It also has [jQuery](https://jquery.com/) available for use, along with [Bootstrap 5](https://getbootstrap.com/).
 New commands to ease database use is also set up, along with a _USERS_ example. The way the database is use is through MODEL objects, such as [Ruby on Rails](https://rubyonrails.org/) does.
-Down below is a guide to set it up, along with documentation: -[How to set it up](https://github.com/marcusaandahl/expressjs-pg-template/blob/main/README.md#How-to-set-it-up) -[Documentaion](https://github.com/marcusaandahl/expressjs-pg-template/blob/main/README.md#Documentation)
+Down below is a guide to set it up, along with documentation:
+*[How to set it up](https://github.com/marcusaandahl/expressjs-pg-template#how-to-set-it-up)
+*[Documentaion](https://github.com/marcusaandahl/expressjs-pg-template#Documentation)
 
 ## How to set it up
 
@@ -16,9 +18,9 @@ Let's set up the repository locally on your computer first.
 2. Then, it is time to create a repository on github for your new project. Under the field to _input project name_ should be the option **No template**, which, after pressed, should give you the _expressjs-pg-template_ option. **Select it**
 3. The repository is now ready to be used! Head to your terminal, which should be in the **folder in which your project will be**
 4. Then, do the usual git commands:
-   _`git init`
-   _`git remote add _YOUR-GIT-REPO-LINK_`
-   \_`git pull origin main`
+   *`git init`
+   *`git remote add _YOUR-GIT-REPO-LINK_`
+   *`git pull origin main`
 5. **BIM BAM BOUM**, your repository is now set up with the template, but it isn't quite ready to be used yet
 
 ### SET UP .ENV AND CO.
