@@ -39,7 +39,7 @@ Time for setting up your global variables, so your app doesn't simply run as _te
    - Chagen `ln11: PGPORT=YOUR_DB_PORT` to the port your database uses, by defauly 5432 for postgresql
 2. Go to `package.json` and change the following:
    - Change `ln2: "name": "template-app",` to match your app name
-   - Change `ln 5-12: "scripts" : "start -> resetDB": "DEBUG=\*-app:\*"` so that the `\*-app` bit matches your app name (will be used for debugging)
+   - Change `ln 5-13: "scripts" : "start -> seedDB": "DEBUG=\*-app:\*"` so that the `\*-app` bit matches your app name (will be used for debugging)
    - Change `ln29: "repository": "git@github.com:marcusaandahl/expressjs-pg-template.git",` to your own repository HTML or SSH link
    - Change `ln30: "author": "Marcus Andreas Aandahl <marcus.aandahl@gmail.com>",` to your own author credentials
 
@@ -60,3 +60,5 @@ use in schema
 yarn migrDB does migrations in schema
 
 yarn newMod MODEL new models must be singular fx. yarn newMod User, and not Users
+
+yarn seedDB runs seeding 
