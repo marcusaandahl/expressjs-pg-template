@@ -1,7 +1,8 @@
-# food-app
+# expressjs-pg-template
 
 ## What is this template?
 
+This is my first attempt at creating my own template, after having tinkered with ExpressJS and PSQL for a while. It was meant as a solid backend solution, for a quick setup in a few clicks, and is meant to look like Ruby on Rails, with its commands and structure.
 This template is for [ExpressJS](https://expressjs.com/) used with [PostgreSQL](https://www.postgresql.org/). It also has [jQuery](https://jquery.com/) available for use, along with [Bootstrap 5](https://getbootstrap.com/).
 New commands to ease database use is also set up, along with a _USERS_ example. The way the database is use is through MODEL objects, such as [Ruby on Rails](https://rubyonrails.org/) does.
 Down below is a guide to set it up, along with documentation:
